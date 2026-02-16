@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Essay Title — Starlightsego</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+    </nav>
+
+    <div class="container">
+      <h1>Essay Title</h1>
+      <p class="date">February 2026</p>
+
+      <p>
+        The first paragraph of your essay begins here. It will automatically
+        have the drop cap styling if we added that CSS earlier.
+      </p>
+
+      <p>Continue writing naturally. Keep paragraphs short for readability.</p>
+
+      <footer>
+        <p>Written in low light ✨</p>
+      </footer>
+    </div>
+  </body>
+</html>

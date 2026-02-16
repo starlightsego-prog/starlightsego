@@ -1,0 +1,138 @@
+/* Import a serif Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+body {
+    animation: fadeIn 0.8s ease-in;
+@keyframes fadeIn 
+  from { opacity: 0; }
+  to { opacity: 1; }
+  margin: 0;
+  padding: 0;
+  background-color: #1c1a17;
+  font-family: 'Playfair Display', serif;
+  color: #f4f1ea;
+  line-height: 1.7;
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Navigation */
+nav {
+  background-color: #181613;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #2a2621;
+}
+
+nav a {
+  color: #b89b72;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: 0.3s ease;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+nav a:hover {
+  color: #f4f1ea;
+}
+
+/* Main container */
+.container {
+  max-width: 650px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #24211d;
+  box-shadow: 0 0 40px rgba(0,0,0,0.4);
+  border-radius: 6px;
+  background: linear-gradient(
+    145deg,
+    #24211d 0%,
+    #1f1c18 100%
+  );
+}
+
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #b89b72;
+}
+
+/* Tagline */
+.tagline {
+  font-style: italic;
+  color: #c8c2b8;
+  margin-bottom: 30px;
+}
+
+/* Links */
+a {
+  color: #b89b72;
+}
+
+a:hover {
+  color: #f4f1ea;
+}
+
+/* Post preview card */
+.post-preview {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3a342c;
+}
+
+/* Date styling */
+.date {
+  font-size: 0.85rem;
+  color: #8e877c;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.8rem;
+  color: #8e877c;
+}
+.star-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 60px 0;
+  color: #b89b72;
+}
+
+.star-divider::before,
+.star-divider::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid #3a342c;
+}
+
+.star-divider span {
+  text-shadow: 0 0 8px rgba(184, 155, 114, 0.4);
+  padding: 0 15px;
+  font-size: 1.2rem;
+}
+a {
+  color: #b89b72;       /* antique gold */
+  text-decoration: underline dotted;  /* subtle, vintage feel */
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #f4f1ea;       /* soft cream on hover */
+  text-decoration: underline solid;
+}
+a:focus {
+  outline: 2px solid #b89b72;
+  outline-offset: 3px;
+}
