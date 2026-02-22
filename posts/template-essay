@@ -13,18 +13,20 @@
 
     <div class="container">
       <h1>Essay Title</h1>
-      <p class="date">February 2026</p>
-
+      <p class="date">insert date</p>
+<h2> headinggggg </h2>
       <p>
-        The first paragraph of your essay begins here. It will automatically
-        have the drop cap styling if we added that CSS earlier.
+       this is the first paragraph!
       </p>
 
-      <p>Continue writing naturally. Keep paragraphs short for readability.</p>
+       <div class="star-divider">
+        <span>✦</span>
+      </div> 
 
       <footer>
-        <p>Written in low light ✨</p>
+        <p> I'll insert something funny here, certanly!✨</p>
       </footer>
     </div>
   </body>
 </html>
+
