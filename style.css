@@ -16,7 +16,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Navigation */
 nav {
   background-color: #181613;
   padding: 15px;
@@ -38,7 +37,6 @@ nav a:hover {
   color: #f4f1ea;
 }
 
-/* Main container */
 .container {
   max-width: 650px;
   margin: 80px auto;
@@ -54,7 +52,6 @@ nav a:hover {
 }
 
 
-/* Headings */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
@@ -66,14 +63,12 @@ h2 {
   color: #b89b72;
 }
 
-/* Tagline */
 .tagline {
   font-style: italic;
   color: #c8c2b8;
   margin-bottom: 30px;
 }
 
-/* Links */
 a {
   color: #b89b72;
 }
@@ -82,20 +77,17 @@ a:hover {
   color: #f4f1ea;
 }
 
-/* Post preview card */
 .post-preview {
   margin-bottom: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid #3a342c;
 }
 
-/* Date styling */
 .date {
   font-size: 0.85rem;
   color: #8e877c;
 }
 
-/* Footer */
 footer {
   text-align: center;
   margin-top: 60px;
@@ -123,16 +115,17 @@ footer {
   font-size: 1.2rem;
 }
 a {
-  color: #b89b72;       /* antique gold */
-  text-decoration: underline dotted;  /* subtle, vintage feel */
+  color: #b89b72;       
+  text-decoration: underline dotted; 
   transition: 0.3s ease;
 }
 
 a:hover {
-  color: #f4f1ea;       /* soft cream on hover */
+  color: #f4f1ea;       
   text-decoration: underline solid;
 }
 a:focus {
   outline: 2px solid #b89b72;
   outline-offset: 3px;
 }
+
