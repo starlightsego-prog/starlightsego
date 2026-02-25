@@ -1,4 +1,4 @@
-/* Import a serif Google Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
 
 body {
@@ -127,5 +127,35 @@ a:hover {
 a:focus {
   outline: 2px solid #b89b72;
   outline-offset: 3px;
+}
+.back-arrow {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #444;
+    transition: 0.3s ease;
+}
+
+.back-arrow:hover {
+    color: #000;
+    transform: translateX(-3px);
+}
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+.post-nav a {
+    text-decoration: none;
+    color: #444;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.post-nav a:hover {
+    color: #000;
 }
 
